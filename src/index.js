@@ -16,10 +16,14 @@ homeTab.addEventListener("click", () => {
 })
 
 menuTab.addEventListener("click", () => {
+    contentDiv.innerHTML = ''
     console.log(menu)
 })
 
 contactTab.addEventListener("click", () => {
+    contentDiv.innerHTML = ''
     console.log(contact)
 })
+
+
 
