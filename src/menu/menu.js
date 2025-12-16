@@ -41,6 +41,7 @@ export default function menu() {
         foodItem.append(image);
         image.src = foodImport[index];
         image.className = "image"
+        image.style.maxWidth = 200;
 
         foodItem.append(Itemtitle);
         Itemtitle.textContent = item;

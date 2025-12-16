@@ -1,4 +1,5 @@
 /* styles.css */
+
 :root {
   --red: #cc1b1b;
   --gold: #c1853b;
@@ -7,8 +8,10 @@
 }
 
 body {
-  background-color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0px;
+  background-image: url(../assets/guoba_Pattern.webp);
+  background-repeat: repeat-x;
 
   nav {
     display: flex;
@@ -34,8 +37,28 @@ body {
       }
     }
   }
+
+  #box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    #content {
+      width: 50%;
+      background-color: white;
+    }
+  }
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Darkbrown);
+  color: white;
+  padding: 10px;
+}
 
 
 
