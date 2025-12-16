@@ -8,3 +8,5 @@ Guoba Face: https://www.pinterest.com/pin/guoba--157626055705999962/
 Wanmin Restaurant Information: https://genshin-impact.fandom.com/wiki/Wanmin_Restaurant
 
 Xiangling: https://www.hoyolab.com/article/22704077
+
+Guoba Pattern: https://www.reddit.com/r/Genshin_Impact/comments/m1fy00/guoba_pattern_commissions_open/

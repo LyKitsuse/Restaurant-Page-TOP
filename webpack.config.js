@@ -21,6 +21,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/temp.html",
+      filename: "index.html",
     }),
   ],
 
@@ -32,6 +33,16 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       // webpack.config.js
+      // webpack.config.js
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
+      // webpack.config.js
+      {
+        test: /\.(png|svg|jpg|jpeg|gif|webp)$/i,
+        type: "asset/resource",
+      },
     ],
   },
 };

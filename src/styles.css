@@ -1,24 +1,41 @@
 /* styles.css */
+:root {
+  --red: #cc1b1b;
+  --gold: #c1853b;
+  --Darkbrown: #2f0505;
+  --brown: #85311b;
+}
+
 body {
   background-color: white;
+  margin: 0px;
+
   nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+    background-color: var(--gold);
     
     ul {
       display: flex;
       align-items: center;
       justify-content: space-around;
-      gap: 80px;
       
       li {
         list-style-type: none;
+        padding: 20px 60px;
+        transition: all 0.5s ease;
+      }
+      
+      li:hover {
+        background-color: var(--brown);
+        color: white;
       }
     }
-    
   }
-  
 }
+
+
 
 
